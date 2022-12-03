@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="lessonSeven.ExpectedConditionWait">
+      <class name="lessonEight.HoverEample">
         <methods>
-          <include name="testExplicitWait"/>
+          <include name="testHover"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- lessonSeven.ExpectedConditionWait -->
+      </class> <!-- lessonEight.HoverEample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
